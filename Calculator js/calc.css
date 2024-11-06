@@ -1,0 +1,112 @@
+.main-display{
+    background-color: #2c3e50;
+    max-width: fit-content;
+    border-radius: 12px;
+
+}
+
+.calc-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+h2{
+    padding: 15px;
+    text-align: center;
+}
+
+.display-screen{
+    width: auto;
+    height: auto;
+    background-color: #131313;
+    margin: 20px;
+    font-size: 26px;
+    display: flex;
+    border-radius: 7px;
+    padding-left: 14px;
+    flex-direction: column;
+}
+
+.screen{
+    color: #c2c1c1;
+    padding: 10px 0 0 0;
+}
+
+small{
+    padding: 0 6px;
+}
+
+.result{
+    color: white;
+    padding: 0 20px 10px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.numbers{
+    background-color: white;
+    width: 55px;
+    height: 55px;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.numbers-container{
+    display: block;
+}
+
+.grp1, .grp2, .grp3, .grp4, .grp0{
+    display: flex;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    min-width: -webkit-fill-available;
+    min-width: fit-content;
+    margin: 0 30px 0px 30px;
+}
+
+.add-animation{
+    animation: blink 1s step-start infinite;
+}
+
+@keyframes blink{
+    50%{
+        opacity: 0;
+    }
+}
+
+.grp4{
+    margin-bottom: 20px;
+}
+
+.numbers:hover{
+    cursor: pointer;
+}
+
+.numbers:active{
+    background-color: #737b83;
+    transition: all .2s ease-in-out;
+}
+
+.del{
+    background-color: #ca2014;
+    color: white;
+    border: 4px solid wheat;
+    font-weight: 600;
+    font-size: 22px;
+}  give me full updated css 
